@@ -1,0 +1,12 @@
+{
+    "name": "dal/learn_composer_library",
+    "version": "1.0.0",
+    "description": "Learn to make library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "LearnComposerLibrary\\": "src/"
+        }
+    },
+    "require": {}
+}
