@@ -8,7 +8,7 @@ class Customer
     {
     }
 
-    public function sayHello(string $name): void
+    public function sayHello(string $name = "Costumer"): void
     {
         echo "Hello $name, my name is $this->name";
     }
